@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="picker-container">
+    <view>
+      当前选择:
+    </view>
+    <view>
+      <picker bindchange="bindButtonTap" value="{{index}}" range-key="label_zh" range="{{typeMenusCfg}}">
+        <view class="picker">
+          {{typeMenusCfg[index].label_zh}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class="canvas-container">
+    <canvas
+      class="clchar-canvas"
+      style="height:{{canvasHeight}}px; width: {{canvasWidth}}px;"
+      canvas-id="mainCanvas">
+    </canvas>
+    <canvas
+      class="clchar-canvas"
+      style="height:{{canvasHeight}}px; width: {{canvasWidth}}px;"
+      canvas-id="cursorCanvas"
+      bindtouchstart="onTouchStart"
+      bindtouchmove="onTouchMove"
+      bindtouchend="onTouchEnd">
+    </canvas>
+  </view>
+</view>

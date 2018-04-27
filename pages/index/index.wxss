@@ -1,0 +1,37 @@
+/**index.wxss**/
+page {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.picker-container {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+}
+
+.picker{
+  padding: 19rpx 26rpx;
+  background-color: #FFFFFF;
+}
+.canvas-container {
+  height: 80%;
+  width: 100%;
+  position: relative;
+}
+
+.clchar-canvas {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
