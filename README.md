@@ -13,7 +13,7 @@ git@github.com:seerline/wechat-applet-clchart-demo.git
 
 ### 2. Creating WeChat Applets with wechat-applet-clchart-demo as a Directory
 
-## Examples
+## Screenshot
 
 <img src="./source/min_idx.png" alt="min_idx" width="300" height="auto">
 <img src="./source/day.png" alt="day" width="300" height="auto">
