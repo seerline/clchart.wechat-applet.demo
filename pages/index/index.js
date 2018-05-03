@@ -61,7 +61,7 @@ Page({
     eventCentral.emit('touchstart', e)
   },
   onTouchMove: function(e) {
-    eventCentral.emit('touchmove', e)         
+    eventCentral.emit('touchmove', e)
   },
   onTouchEnd: function(e) {
     eventCentral.emit('touchend', e)
